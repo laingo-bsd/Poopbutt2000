@@ -65,7 +65,7 @@ def market():
     print("1 = Buy")
     print("2 = Sell") 
     cmd = input(": ")
-
+    #gay
     #SELLING
     if cmd == "2":
       global cc
