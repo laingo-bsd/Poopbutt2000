@@ -9,7 +9,7 @@ cc = 0
 dayleft = 365
 adminmode = 1
 tradeprice = 20
-
+#poop
 '''
 cc=clinkcoin
 
