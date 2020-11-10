@@ -21,7 +21,7 @@ cc=clinkcoin
 
 def tradepricernd():
   global tradeprice
-  y = random.randint(-16, 20)
+  y = random.randint(-6, 10)
   tradeprice = tradeprice + y
   if tradeprice <= 0:
     tradeprice = 0
@@ -127,7 +127,7 @@ def market():
       print("yes")
       print("no")
       cmd = input(": ")
-      if cmd == "yes" and money >= totalprice:
+      if cmd == "yes" and int(money) >= int(totalprice):
         money = int(money) - int(totalprice)
         cc = int(cc) + int(x)
       else:
